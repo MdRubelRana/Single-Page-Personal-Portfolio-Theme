@@ -50,25 +50,40 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
-                            <img src="./img/about-us.png" alt="About us" class="img-fluid">
+                            <!-- <img src="./img/about-us.png" alt="About us" class="img-fluid"> -->
+                            <?php if(get_theme_mod('about_us_image')):?>
+                            <img src="<?php echo esc_url(get_theme_mod('about_us_image'));?>" alt="About us" class="img-fluid">
+                            <?php endif;?>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
                         <h2 class="text-uppercase pt-5">
-                            <span>Let me</span>
-                            <span>introduce</span>
-                            <span>myself</span>
+                            <span>
+                                <?php if(get_theme_mod('about_us_text_field_01')):?>
+                                <?php echo get_theme_mod('about_us_text_field_01');?>
+                                <?php endif;?>
+                            </span>
+                            <span>
+                                <?php if(get_theme_mod('about_us_text_field_02')):?>
+                                <?php echo get_theme_mod('about_us_text_field_02');?>
+                                <?php endif;?>
+                            </span>
+                            <span>
+                                <?php if(get_theme_mod('about_us_text_field_03')):?>
+                                <?php echo get_theme_mod('about_us_text_field_03');?>
+                                <?php endif;?>
+                            </span>
                         </h2>
                         <div class="paragraph py-4 w-75">
                             <p class="para">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum iure obcaecati vel
-                                possimus officia maiores perferendis ut! Quos, perspiciatis.
+                                <?php if(get_theme_mod('about_us_text_field_04')):?>
+                                <?php echo get_theme_mod('about_us_text_field_04');?>
+                                <?php endif;?>
                             </p>
                             <p class="para">
-                                It is a long established fact that a reader will be distracted by the readable content
-                                of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                                here
+                                <?php if(get_theme_mod('about_us_text_field_04')):?>
+                                <?php echo get_theme_mod('about_us_text_field_04');?>
+                                <?php endif;?>
                             </p>
                         </div>
                         <button type="button" class="btn button primary-button text-uppercase">Download cv</button>

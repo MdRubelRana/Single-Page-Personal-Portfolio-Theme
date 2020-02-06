@@ -16,8 +16,8 @@
                 </div>
                 <div class="copyrights text-center">
                     <p class="para">
-                        Copyright ©2019 All rights reserved | This template is made with by
-                        <a href="#"><span style="color: var(--primary-color);">Daily Tuition</span></a>
+                        This template is made by
+                        <a href="https://www.mdrubel.info" target="_blank"><span style="color: var(--primary-color);">Md. Rubel Rana</span></a> | Copyright ©2020 All rights reserved.
                     </p>
                 </div>
             </div>
