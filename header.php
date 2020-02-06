@@ -35,7 +35,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
+                    <!-- <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -58,7 +58,16 @@
                             <a class="nav-link" href="#">contact</a>
                         </li>
 
-                    </ul>
+                    </ul> -->
+                    <?php 
+                        if(has_nav_menu('primary-menu')){
+                            wp_nav_menu(array(
+                                'theme_location' => 'primary-menu',
+                                'container' => '',
+                                'items_wrap' => '<ul class="navbar-nav nav-item">%3$s</ul>'
+                            ));
+                        }
+                    ?>
                 </div>
             </nav>
         </div>

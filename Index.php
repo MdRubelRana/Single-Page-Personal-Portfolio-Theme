@@ -4,13 +4,26 @@
 
 
         <!--  ======================= Start Banner Area =======================  -->
-        <section class="site-banner">
-            <div class="container">
+        <section class="site-banner" style="background: url('<?php echo esc_url(get_theme_mod('header_background_image'));?>') no-repeat 0% 50%;">
+            <div class="container" >
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text text-uppercase">I am Rubel</h1>
-                        <h4 class="title-text text-uppercase">Wordpress Developer</h4>
+                        <!-- <h3 class="title-text">Hey</h3> -->
+                        <?php if(get_theme_mod('header_text_field_01')):?>
+                        <h3 class="title-text text-capitalize"><?php echo get_theme_mod('header_text_field_01');?></h3>
+                        <?php endif;?>
+
+                        <!-- <h1 class="title-text text-uppercase">I am Rubel</h1> -->
+                        <?php if(get_theme_mod('header_text_field_02')):?>
+                        <h1 class="title-text text-uppercase"><?php echo get_theme_mod('header_text_field_02');?></h1>
+                        <?php endif;?>
+                      
+
+                        <!-- <h4 class="title-text text-uppercase">Wordpress Developer</h4> -->
+                        <?php if(get_theme_mod('header_text_field_03')):?>
+                        <h4 class="title-text text-capitalize"><?php echo get_theme_mod('header_text_field_03');?></h4>
+                        <?php endif;?>
+                      
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
@@ -20,7 +33,10 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid">
+                        <!-- <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid"> -->
+                        <?php if(get_theme_mod('header_image')):?>
+                        <img src="<?php echo esc_url(get_theme_mod('header_image'));?>" alt="banner-img" class="img-fluid">
+                        <?php endif;?>
                     </div>
                 </div>
             </div>

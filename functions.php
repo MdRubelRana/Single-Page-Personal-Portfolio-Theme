@@ -8,6 +8,10 @@
  */
 
 
+ // add customizer file
+ require_once('templates/helpers/customizer.php');
+
+
  function fn_theme_scripts(){
 
     /* include style files */
@@ -48,5 +52,12 @@
  }
 
  add_action('init','fn_nav_menu');
+
+ function add_link_atts($atts){
+     $atts['class'] = 'nav-item nav-link';
+     return $atts;
+ }
+
+ add_filter('nav_menu_link_attributes','add_link_atts');
 
 ?>

@@ -28,9 +28,9 @@
     padding: 0 2rem 0 5rem;
 }
 
-.header_area .main-menu .navbar{
+/* .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
-}
+} */
 
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
@@ -58,9 +58,9 @@
 
 /* Banner Area */ 
 
-.site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-}
+/* .site-main .site-banner {
+    background: no-repeat 0% 50%;
+} */
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
