@@ -12,14 +12,14 @@
 
 
 /* import fonts from fonts.css file */ 
-@import url(./fonts.css);
+@import url(./assets/css/fonts.css);
 
 
 /* css variables */ 
-@import url(./partials/_variables.css);
+@import url(./assets/css/_variables.css);
 
 /* import global styling */ 
-@import url(./partials/_global.css);
+@import url(./assets/css/_global.css);
 
 
 /* start navigation */ 
