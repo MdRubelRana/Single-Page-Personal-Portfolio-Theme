@@ -21,12 +21,35 @@
     // adding bootstrap4 file
     wp_enqueue_style('bootstrap4', get_template_directory_uri().'/assets/css/bootstrap.min.css');
 
+    // @media query responsive css file
+    wp_enqueue_style('media-responsive', get_template_directory_uri().'/assets/css/_media.css');
+
     // custom stylesheet
     wp_enqueue_style('custom-style', get_stylesheet_uri());
 
+    // custom stylesheet
+    wp_enqueue_style('owl-carousel', get_template_directory_uri().'/vendor/owl-carousel/css/owl.carousel.min.css');
+    wp_enqueue_style('owl-carousel-2', get_template_directory_uri().'/vendor/owl-carousel/css/owl.theme.default.min.css');
 
-    // @media query responsive css file
-    wp_enqueue_style('media_responsive', get_template_directory_uri().'/assests/css/_media.css');
+
+    /* include scripts files */
+    // adding jquery file
+    wp_enqueue_script('jquery_file', get_template_directory_uri() .'/assets/js/jquery.3.4.1.js');
+
+    // adding bootstrap4 file
+    wp_enqueue_script('bootstrap-script', get_template_directory_uri() .'/assets/js/bootstrap.min.js');
+
+    // adding isotope file
+    wp_enqueue_script('isotope-script', get_template_directory_uri() .'/vendor/isotope/isotope.min.js');
+
+    // adding magnific file
+    wp_enqueue_script('magnific-script', get_template_directory_uri() .'/vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js');
+
+    // adding owl-carousel file
+    wp_enqueue_script('owl-carousel-script', get_template_directory_uri() .'/vendor/owl-carousel/js/owl.carousel.min.js');
+
+    // adding bootstrap4 file
+    wp_enqueue_script('main-file', get_template_directory_uri() .'/assets/js/main.js');
  }
 
  add_action('wp_enqueue_scripts','fn_theme_scripts');

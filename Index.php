@@ -103,47 +103,74 @@
                         <div class="first-row row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo1.png" alt="Brand-1 ">
+                                    <!-- <img src="./img/brands/logo1.png" alt="Brand-1 "> -->
+                                    <?php if(get_theme_mod('experience_brand_image_01')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_01'));?>" alt="Brand-1 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo2.png" alt="Brand-2 ">
+                                    <!-- <img src="./img/brands/logo2.png" alt="Brand-2 "> -->
+                                    <?php if(get_theme_mod('experience_brand_image_02')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_02'));?>" alt="Brand-2 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo3.png" alt="Brand-3 ">
+                                    <!-- <img src="./img/brands/logo3.png" alt="Brand-3 "> -->
+                                    <?php if(get_theme_mod('experience_brand_image_03')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_03'));?>" alt="Brand-3 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo4.png" alt="Brand-4">
+                                    <!-- <img src="./img/brands/logo4.png" alt="Brand-4"> -->
+                                    <?php if(get_theme_mod('experience_brand_image_04')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_04'));?>" alt="Brand-4 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo5.png" alt="Brand-5 ">
+                                    <!-- <img src="./img/brands/logo5.png" alt="Brand-5 "> -->
+                                    <?php if(get_theme_mod('experience_brand_image_05')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_05'));?>" alt="Brand-5 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo6.png" alt="Brand-6">
+                                    <!-- <img src="./img/brands/logo6.png" alt="Brand-6"> -->
+                                    <?php if(get_theme_mod('experience_brand_image_06')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_06'));?>" alt="Brand-6 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo7.png" alt="Brand-7 ">
+                                    <!-- <img src="./img/brands/logo7.png" alt="Brand-7 "> -->
+                                    <?php if(get_theme_mod('experience_brand_image_07')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_07'));?>" alt="Brand-7 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo8.png" alt="Brand-8 ">
+                                    <!-- <img src="./img/brands/logo8.png" alt="Brand-8 "> -->
+                                    <?php if(get_theme_mod('experience_brand_image_08')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_08'));?>" alt="Brand-8 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/brands/logo9.png" alt="Brand-9">
+                                    <!-- <img src="./img/brands/logo9.png" alt="Brand-9"> -->
+                                    <?php if(get_theme_mod('experience_brand_image_09')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_09'));?>" alt="Brand-9 ">
+                                    <?php endif;?>
                                 </div>
                             </div>
                         </div>
@@ -151,15 +178,31 @@
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="experience-area">
                             <div class="d-flex flex-row years-area">
-                                <h2 class="p-3 years">10</h2>
-                                <h2>
-                                    <span>Years</span>
-                                    <span>Experience</span>
-                                    <span>Working</span>
+                                <h2 class="p-3 years">
+                                    <?php if(get_theme_mod('experience_text_01')):?>
+                                    <?php echo get_theme_mod('experience_text_01');?>
+                                    <?php endif;?>
+                                </h2>
+                                <h2 class="text-capitalize">
+                                    <span>
+                                        <?php if(get_theme_mod('experience_text_02')):?>
+                                        <?php echo get_theme_mod('experience_text_02');?>
+                                        <?php endif;?>
+                                    </span>
+                                    <span>
+                                        <?php if(get_theme_mod('experience_text_03')):?>
+                                        <?php echo get_theme_mod('experience_text_03');?>
+                                        <?php endif;?>
+                                    </span>
+                                    <span>
+                                        <?php if(get_theme_mod('experience_text_04')):?>
+                                        <?php echo get_theme_mod('experience_text_04');?>
+                                        <?php endif;?>
+                                    </span>
                                 </h2>
                             </div>
                             <div class="d-flex flex-row flex-wrap call-area">
-                                <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
+                                <span><i class="fa-phone-alt fa-3x px-3"></i></span>
                                 <div class="call-now">
                                     <a href="#" class="text-uppercase h4 font-roboto">Call Now</a>
                                     <span class="font-roboto py-2">(+91)-800-555-4986</span>
@@ -180,10 +223,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text">Services Offers</h1>
+                        <h1 class="text-uppercase title-text">
+                            <?php if(get_theme_mod('services_offers_header')):?>
+                            <?php echo get_theme_mod('services_offers_header');?>
+                            <?php endif;?>
+                        </h1>
                         <p class="para">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour
+                            <?php if(get_theme_mod('services_offers_sub_header')):?>
+                            <?php echo get_theme_mod('services_offers_sub_header');?>
+                            <?php endif;?>
                         </p>
                     </div>
                 </div>
@@ -192,14 +240,21 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s1.png" alt="Services-1">
+                                    <!-- <img src="./img/services/s1.png" alt="Services-1"> -->
+                                    <?php if(get_theme_mod('services_offers_image_01')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('services_offers_image_01'));?>" alt="Services-1">
+                                    <?php endif;?>
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">Wp developer</h5>
+                                    <h5 class="card-title text-uppercase font-roboto">
+                                        <?php if(get_theme_mod('services_offers_titile_01')):?>
+                                        <?php echo get_theme_mod('services_offers_titile_01');?>
+                                        <?php endif;?>
+                                    </h5>
                                     <p class="card-text text-secondary">
-                                        Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.
+                                        <?php if(get_theme_mod('services_offers_desc_01')):?>
+                                        <?php echo get_theme_mod('services_offers_desc_01');?>
+                                        <?php endif;?>
                                     </p>
                                 </div>
                             </div>
@@ -207,14 +262,21 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s2.png" alt="Services-2">
+                                    <!-- <img src="./img/services/s2.png" alt="Services-2"> -->
+                                    <?php if(get_theme_mod('services_offers_image_02')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('services_offers_image_02'));?>" alt="Services-2">
+                                    <?php endif;?>
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                                    <h5 class="card-title text-uppercase font-roboto">
+                                        <?php if(get_theme_mod('services_offers_titile_02')):?>
+                                        <?php echo get_theme_mod('services_offers_titile_02');?>
+                                        <?php endif;?>
+                                    </h5>
                                     <p class="card-text text-secondary">
-                                        Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.
+                                        <?php if(get_theme_mod('services_offers_desc_02')):?>
+                                        <?php echo get_theme_mod('services_offers_desc_02');?>
+                                        <?php endif;?>
                                     </p>
                                 </div>
                             </div>
@@ -222,14 +284,21 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s3.png" alt="Services-3">
+                                    <!-- <img src="./img/services/s3.png" alt="Services-3"> -->
+                                    <?php if(get_theme_mod('services_offers_image_03')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('services_offers_image_03'));?>" alt="Services-3">
+                                    <?php endif;?>
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                                    <h5 class="card-title text-uppercase font-roboto">
+                                        <?php if(get_theme_mod('services_offers_titile_03')):?>
+                                        <?php echo get_theme_mod('services_offers_titile_03');?>
+                                        <?php endif;?>
+                                    </h5>
                                     <p class="card-text text-secondary">
-                                        Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.
+                                        <?php if(get_theme_mod('services_offers_desc_03')):?>
+                                        <?php echo get_theme_mod('services_offers_desc_03');?>
+                                        <?php endif;?>
                                     </p>
                                 </div>
                             </div>
@@ -237,14 +306,21 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s4.png" alt="Services-4">
+                                    <!-- <img src="./img/services/s4.png" alt="Services-4"> -->
+                                    <?php if(get_theme_mod('services_offers_image_04')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('services_offers_image_04'));?>" alt="Services-4">
+                                    <?php endif;?>
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">seo optimize</h5>
+                                    <h5 class="card-title text-uppercase font-roboto">
+                                        <?php if(get_theme_mod('services_offers_titile_04')):?>
+                                        <?php echo get_theme_mod('services_offers_titile_04');?>
+                                        <?php endif;?>
+                                    </h5>
                                     <p class="card-text text-secondary">
-                                        Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.
+                                        <?php if(get_theme_mod('services_offers_desc_04')):?>
+                                        <?php echo get_theme_mod('services_offers_desc_04');?>
+                                        <?php endif;?>
                                     </p>
                                 </div>
                             </div>

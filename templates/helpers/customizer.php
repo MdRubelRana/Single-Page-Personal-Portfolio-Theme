@@ -177,6 +177,390 @@
         'settings' => 'about_us_text_field_05'
     ));
 
+
+    /* Add Experience Setting */
+    // add a customizer setting
+    // include new version
+    $wp_customizer -> add_section('experience_brand', array(
+        'title' => _('Experience Settings'),
+        'priority' => 80
+    ));
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_01', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_01', array(
+        'label' => _('Brand Image 1'),
+        'description' => 'Change brand image 1',
+        'section' => 'experience_brand'
+    )));
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_02', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_02', array(
+        'label' => _('Brand Image 2'),
+        'description' => 'Change brand image 2',
+        'section' => 'experience_brand'
+    )));
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_03', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_03', array(
+        'label' => _('Brand Image 3'),
+        'description' => 'Change brand image 3',
+        'section' => 'experience_brand'
+    )));
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_04', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_04', array(
+        'label' => _('Brand Image 4'),
+        'description' => 'Change brand image 4',
+        'section' => 'experience_brand'
+    )));
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_05', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_05', array(
+        'label' => _('Brand Image 5'),
+        'description' => 'Change brand image 5',
+        'section' => 'experience_brand'
+    )));
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_06', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_06', array(
+        'label' => _('Brand Image 6'),
+        'description' => 'Change brand image 6',
+        'section' => 'experience_brand'
+    )));
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_07', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_07', array(
+        'label' => _('Brand Image 7'),
+        'description' => 'Change brand image 7',
+        'section' => 'experience_brand'
+    )));
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_08', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_08', array(
+        'label' => _('Brand Image 8'),
+        'description' => 'Change brand image 8',
+        'section' => 'experience_brand'
+    )));
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('experience_brand_image_09', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_09', array(
+        'label' => _('Brand Image 9'),
+        'description' => 'Change brand image 9',
+        'section' => 'experience_brand'
+    )));
+
+    // adding header text
+    $wp_customizer -> add_setting('experience_text_01', array(
+        'capability' => 'edit_theme_options',
+        'default' => '10'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('experience_text_01', array(
+        'label' => _('Text 1'),
+        'description' => 'Change text 1',
+        'section' => 'experience_brand',
+        'settings' => 'experience_text_01'
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('experience_text_02', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Years'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('experience_text_02', array(
+        'label' => _('Text 2'),
+        'description' => 'Change text 2',
+        'section' => 'experience_brand',
+        'settings' => 'experience_text_02'
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('experience_text_03', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Working'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('experience_text_03', array(
+        'label' => _('Text 3'),
+        'description' => 'Change text 3',
+        'section' => 'experience_brand',
+        'settings' => 'experience_text_03'
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('experience_text_04', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Experience'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('experience_text_04', array(
+        'label' => _('Text 4'),
+        'description' => 'Change text 4',
+        'section' => 'experience_brand',
+        'settings' => 'experience_text_04'
+    ));
+
+
+    /* Add Services Setting */
+    // add a customizer setting
+    // include new version
+    $wp_customizer -> add_section('services_offers', array(
+        'title' => _('Services'),
+        'priority' => 80
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_header', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'SERVICES OFFERS'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_header', array(
+        'label' => _('Service Header'),
+        'description' => 'Change header text',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_header'
+    ));
+
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_sub_header', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_sub_header', array(
+        'label' => _('Service Header Description'),
+        'description' => 'Change header description text ',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_sub_header'
+    ));
+
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('services_offers_image_01', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'services_offers_image_01', array(
+        'label' => _('Image 1'),
+        'description' => 'Change image 1',
+        'section' => 'services_offers'
+    )));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_titile_01', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'WP DEVELOPER'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_titile_01', array(
+        'label' => _('Service Title 1'),
+        'description' => 'Change title text 1',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_titile_01'
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_desc_01', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Some quick example text to build on the card title and make up the bulk of the cards content.'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_desc_01', array(
+        'label' => _('Description 1'),
+        'description' => 'Change description text 1',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_desc_01'
+    ));
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('services_offers_image_02', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'services_offers_image_02', array(
+        'label' => _('Image 2'),
+        'description' => 'Change image 2',
+        'section' => 'services_offers'
+    )));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_titile_02', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'UX/UI DESING'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_titile_02', array(
+        'label' => _('Service Title 2'),
+        'description' => 'Change title text 2',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_titile_02'
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_desc_02', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Some quick example text to build on the card title and make up the bulk of the cards content.'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_desc_02', array(
+        'label' => _('Description 2'),
+        'description' => 'Change description text 2',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_desc_02'
+    ));
+
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('services_offers_image_03', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'services_offers_image_03', array(
+        'label' => _('Image 3'),
+        'description' => 'Change image 3',
+        'section' => 'services_offers'
+    )));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_titile_03', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'WEB DESIGN'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_titile_03', array(
+        'label' => _('Service Title 3'),
+        'description' => 'Change title text 3',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_titile_03'
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_desc_03', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Some quick example text to build on the card title and make up the bulk of the cards content.'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_desc_03', array(
+        'label' => _('Description 3'),
+        'description' => 'Change description text 3',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_desc_03'
+    ));
+
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('services_offers_image_04', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'services_offers_image_04', array(
+        'label' => _('Image 4'),
+        'description' => 'Change image 4',
+        'section' => 'services_offers'
+    )));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_titile_04', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'SEO OPTIMIZE'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_titile_04', array(
+        'label' => _('Service Title 4'),
+        'description' => 'Change title text 4',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_titile_04'
+    ));
+
+    // adding header text
+    $wp_customizer -> add_setting('services_offers_desc_04', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Some quick example text to build on the card title and make up the bulk of the cards content.'
+    ));
+
+    // adding text control
+    $wp_customizer -> add_control('services_offers_desc_04', array(
+        'label' => _('Description 4'),
+        'description' => 'Change description text 4',
+        'section' => 'services_offers',
+        'settings' => 'services_offers_desc_04'
+    ));
+
+
+    
+
  }
 
  add_action('customize_register','fn_customizer_settings');
