@@ -202,7 +202,7 @@
                                 </h2>
                             </div>
                             <div class="d-flex flex-row flex-wrap call-area">
-                                <span><i class="fa-phone-alt fa-3x px-3"></i></span>
+                                <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
                                 <div class="call-now">
                                     <a href="#" class="text-uppercase h4 font-roboto">Call Now</a>
                                     <span class="font-roboto py-2">(+91)-800-555-4986</span>
@@ -225,8 +225,7 @@
                     <div class="col-lg-12 text-center services-title">
                         <h1 class="text-uppercase title-text">
                             <?php if(get_theme_mod('services_offers_header')):?>
-                            <?php echo get_theme_mod('
-                            ');?>
+                            <?php echo get_theme_mod('services_offers_header');?>
                             <?php endif;?>
                         </h1>
                         <p class="para">
@@ -338,8 +337,16 @@
         <section class="project-area">
             <div class="container">
                 <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1">Recently Done Project</h1>
-                    <h1 class="text-uppercase title-h1">Quality Work</h1>
+                    <h1 class="text-uppercase title-h1">
+                        <?php if(get_theme_mod('recent_project_header_01')):?>
+                        <?php echo get_theme_mod('recent_project_header_01');?>
+                        <?php endif;?>
+                    </h1>
+                    <h1 class="text-uppercase title-h1">
+                        <?php if(get_theme_mod('recent_project_header_02')):?>
+                        <?php echo get_theme_mod('recent_project_header_02');?>
+                        <?php endif;?>
+                    </h1>
                 </div>
 
                 <div class="button-group">
@@ -354,8 +361,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                                    <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_01'));?>">
+                                    <!-- <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_01')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_01'));?>" alt="Services-3">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -367,8 +377,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
-                                    <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_02'));?>">
+                                    <!-- <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_02')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_02'));?>" alt="portfolio-2">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -380,8 +393,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
-                                    <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_03'));?>">
+                                    <!-- <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_03')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_03'));?>" alt="Services-3">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -393,8 +409,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p4.jpg">
-                                    <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_04'));?>">
+                                    <!-- <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_04')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_04'));?>" alt="portfolio-4">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -406,8 +425,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p5.jpg">
-                                    <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_05'));?>">
+                                    <!-- <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_05')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_05'));?>" alt="portfolio-5">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -419,8 +441,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
-                                    <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_06'));?>">
+                                    <!-- <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_06')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_06'));?>" alt="portfolio-6">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -432,8 +457,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
-                                    <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_07'));?>">
+                                    <!-- <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_07')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_07'));?>" alt="portfolio-7">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -445,8 +473,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
-                                    <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_08'));?>">
+                                    <!-- <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_08')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_08'));?>" alt="portfolio-8">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -458,8 +489,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
-                                    <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
+                                <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_09'));?>">
+                                    <!-- <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid"> -->
+                                    <?php if(get_theme_mod('recent_project_showcase_09')):?>
+                                    <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_09'));?>" alt="portfolio-9">
+                                    <?php endif;?>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -495,64 +529,125 @@
                 <div class="owl-carousel owl-theme">
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                            <!-- <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid"> -->
+                            <?php if(get_theme_mod('testimonials_client_image_01')):?>
+                            <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_01'));?>" class="img-fluid" alt="testimonials-1">
+                            <?php endif;?>
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">John Martin</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">
+                                <?php if(get_theme_mod('testimonials_client_name_01')):?>
+                                <?php echo get_theme_mod('testimonials_client_name_01');?>
+                                <?php endif;?>
+                            </h4>
+                            <p class="para">
+                            <?php if(get_theme_mod('testimonials_client_desc_01')):?>
+                                <?php echo get_theme_mod('testimonials_client_desc_01');?>
+                                <?php endif;?>
+                            </p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                            <!-- <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid"> -->
+                            <?php if(get_theme_mod('testimonials_client_image_02')):?>
+                            <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_02'));?>" class="img-fluid" alt="testimonials-2">
+                            <?php endif;?>
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">Mac Hill</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">
+                                <?php if(get_theme_mod('testimonials_client_name_02')):?>
+                                <?php echo get_theme_mod('testimonials_client_name_02');?>
+                                <?php endif;?>
+                            </h4>
+                            <p class="para">
+                                <?php if(get_theme_mod('testimonials_client_desc_02')):?>
+                                <?php echo get_theme_mod('testimonials_client_desc_02');?>
+                                <?php endif;?>
+                            </p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                            <!-- <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid"> -->
+                            <?php if(get_theme_mod('testimonials_client_image_01')):?>
+                            <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_01'));?>" class="img-fluid" alt="testimonials-1">
+                            <?php endif;?>
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">John Martin</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">
+                                <?php if(get_theme_mod('testimonials_client_name_01')):?>
+                                <?php echo get_theme_mod('testimonials_client_name_01');?>
+                                <?php endif;?>
+                            </h4>
+                            <p class="para">
+                            <?php if(get_theme_mod('testimonials_client_desc_01')):?>
+                                <?php echo get_theme_mod('testimonials_client_desc_01');?>
+                                <?php endif;?>
+                            </p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                            <!-- <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid"> -->
+                            <?php if(get_theme_mod('testimonials_client_image_02')):?>
+                            <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_02'));?>" class="img-fluid" alt="testimonials-2">
+                            <?php endif;?>
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">Mac Hill</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">
+                                <?php if(get_theme_mod('testimonials_client_name_02')):?>
+                                <?php echo get_theme_mod('testimonials_client_name_02');?>
+                                <?php endif;?>
+                            </h4>
+                            <p class="para">
+                                <?php if(get_theme_mod('testimonials_client_desc_02')):?>
+                                <?php echo get_theme_mod('testimonials_client_desc_02');?>
+                                <?php endif;?>
+                            </p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                            <!-- <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid"> -->
+                            <?php if(get_theme_mod('testimonials_client_image_01')):?>
+                            <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_01'));?>" class="img-fluid" alt="testimonials-1">
+                            <?php endif;?>
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">John Martin</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">
+                                <?php if(get_theme_mod('testimonials_client_name_01')):?>
+                                <?php echo get_theme_mod('testimonials_client_name_01');?>
+                                <?php endif;?>
+                            </h4>
+                            <p class="para">
+                            <?php if(get_theme_mod('testimonials_client_desc_01')):?>
+                                <?php echo get_theme_mod('testimonials_client_desc_01');?>
+                                <?php endif;?>
+                            </p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                            <!-- <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid"> -->
+                            <?php if(get_theme_mod('testimonials_client_image_02')):?>
+                            <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_02'));?>" class="img-fluid" alt="testimonials-2">
+                            <?php endif;?>
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">Mac Hill</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">
+                                <?php if(get_theme_mod('testimonials_client_name_02')):?>
+                                <?php echo get_theme_mod('testimonials_client_name_02');?>
+                                <?php endif;?>
+                            </h4>
+                            <p class="para">
+                                <?php if(get_theme_mod('testimonials_client_desc_02')):?>
+                                <?php echo get_theme_mod('testimonials_client_desc_02');?>
+                                <?php endif;?>
+                            </p>
                         </div>
                     </div>
+
                 </div>
             </div>
 
@@ -562,7 +657,7 @@
 
         <!--  ========================== Subscribe me Area ============================  -->
         <section class="subscribe-us-area">
-            <div class="container subscribe">
+            <div class="container subscribe" style="background: url('<?php echo esc_url(get_theme_mod('subscribe_background_image'));?>') no-repeat;">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
                         <h4 class="text-uppercase">Get Update From anywhere</h4>

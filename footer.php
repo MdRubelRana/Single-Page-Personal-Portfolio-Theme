@@ -24,7 +24,7 @@
                 <div class="copyrights text-center">
                     <p class="para">
                         This template is made by
-                        <a href="https://www.mdrubel.info" target="_blank"><span style="color: var(--primary-color);">Md. Rubel Rana</span></a> | Copyright ©2020 All rights reserved.
+                        <a href="https://www.mdrubel.info" target="_blank"><span style="color: var(--primary-color);">Md. Rubel Rana</span></a> | Copyright &copy; 2020 All rights reserved.
                     </p>
                 </div>
             </div>

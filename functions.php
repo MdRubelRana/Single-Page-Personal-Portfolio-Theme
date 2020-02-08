@@ -17,6 +17,7 @@
     /* include style files */
     // adding font awesome icons file
     wp_enqueue_style('fontawesome', get_template_directory_uri().'/vendor/css/all.min.css');
+    wp_enqueue_style('fontawesome-script', get_template_directory_uri().'/vendor/js/all.min.js');
 
     // adding bootstrap4 file
     wp_enqueue_style('bootstrap4', get_template_directory_uri().'/assets/css/bootstrap.min.css');
