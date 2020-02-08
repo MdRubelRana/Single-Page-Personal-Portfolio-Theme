@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body style="background: url('<?php echo esc_url(get_theme_mod('body_background_image'));?>') no-repeat;">
 
 
     <!--  ======================= Start Header Area ============================== -->
@@ -35,30 +35,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
-                    <!-- <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">pages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
-                        </li>
-
-                    </ul> -->
                     <?php 
                         if(has_nav_menu('primary-menu')){
                             wp_nav_menu(array(

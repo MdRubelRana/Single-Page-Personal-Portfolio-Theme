@@ -28,7 +28,7 @@
     // custom stylesheet
     wp_enqueue_style('custom-style', get_stylesheet_uri());
 
-    // custom stylesheet
+    // custom owl-carousel file
     wp_enqueue_style('owl-carousel', get_template_directory_uri().'/vendor/owl-carousel/css/owl.carousel.min.css');
     wp_enqueue_style('owl-carousel-2', get_template_directory_uri().'/vendor/owl-carousel/css/owl.theme.default.min.css');
 

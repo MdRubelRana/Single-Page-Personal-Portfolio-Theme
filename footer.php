@@ -1,7 +1,7 @@
 </main>
     <!--  ======================= End Main Area ================================ -->
 
-    <footer class="footer-area">
+    <footer class="footer-area" style="background: url('<?php echo esc_url(get_theme_mod('footer_background_image'));?>') no-repeat;">
         <div class="container">
             <div class="">
                 <div class="site-logo text-center py-4">

@@ -15,6 +15,19 @@
         'title' => _('Header Settings'),
         'priority' => 70
     ));
+    
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('body_background_image', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'body_background_image', array(
+        'label' => _('Body Background Image'),
+        'description' => 'Change background image',
+        'section' => 'header'
+    )));
 
 
     // allow us to add capability to the customizer setting
@@ -294,6 +307,19 @@
     $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'experience_brand_image_09', array(
         'label' => _('Brand Image 9'),
         'description' => 'Change brand image 9',
+        'section' => 'experience_brand'
+    )));
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('years_background_image', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'years_background_image', array(
+        'label' => _('Experience Background Image'),
+        'description' => 'Change backgroumd image',
         'section' => 'experience_brand'
     )));
 
@@ -868,34 +894,59 @@
     )));
 
 
-// adding header text
-$wp_customizer -> add_setting('subscribe_header', array(
+    // adding header text
+    $wp_customizer -> add_setting('subscribe_header', array(
     'capability' => 'edit_theme_options',
     'default' => 'GET UPDATE FROM ANYWHERE'
-));
+    ));
 
-// adding text control
-$wp_customizer -> add_control('subscribe_header', array(
-    'label' => _('Header Text'),
-    'description' => 'Change header text',
-    'section' => 'subscribe',
-    'settings' => 'subscribe_header'
-));
+    // adding text control
+    $wp_customizer -> add_control('subscribe_header', array(
+        'label' => _('Header Text'),
+        'description' => 'Change header text',
+        'section' => 'subscribe',
+        'settings' => 'subscribe_header'
+    ));
 
 
-// adding header text
-$wp_customizer -> add_setting('subscribe_sub_header', array(
-    'capability' => 'edit_theme_options',
-    'default' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequuntur.'
-));
+    // adding header text
+    $wp_customizer -> add_setting('subscribe_sub_header', array(
+        'capability' => 'edit_theme_options',
+        'default' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, consequuntur.'
+    ));
 
-// adding text control
-$wp_customizer -> add_control('subscribe_sub_header', array(
-    'label' => _('Description'),
-    'description' => 'Change description text',
-    'section' => 'subscribe',
-    'settings' => 'subscribe_sub_header'
-));
+    // adding text control
+    $wp_customizer -> add_control('subscribe_sub_header', array(
+        'label' => _('Description'),
+        'description' => 'Change description text',
+        'section' => 'subscribe',
+        'settings' => 'subscribe_sub_header'
+    ));
+
+
+    /* Add Footer Settings */
+    // add a customizer setting
+    // include new version
+    $wp_customizer -> add_section('footer', array(
+        'title' => _('Footer Settings'),
+        'priority' => 90
+    ));
+
+
+    // allow us to add capability to the customizer setting
+    $wp_customizer -> add_setting('footer_background_image', array(
+        'capability' => 'edit_theme_options'
+    ));
+
+    // add control in the customizer setiings
+    $wp_customizer -> add_control(new WP_Customize_Image_Control($wp_customizer, 'footer_background_image', array(
+        'label' => _('Footer Background Image'),
+        'description' => 'Change background image',
+        'section' => 'footer'
+    )));
+
+
+
 
     
 

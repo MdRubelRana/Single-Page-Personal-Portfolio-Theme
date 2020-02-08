@@ -29,10 +29,6 @@
     padding: 0 2rem 0 5rem;
 }
 
-/* .header_area .main-menu .navbar{
-    padding: 1rem 20rem ;
-} */
-
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
@@ -58,10 +54,6 @@
 /* end navigation */ 
 
 /* Banner Area */ 
-
-/* .site-main .site-banner {
-    background: no-repeat 0% 50%;
-} */
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
@@ -159,7 +151,6 @@
 }
 
 .site-main .brand-area .experience-area .years-area{
-    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
     padding: 2rem 0;
     width: 40rem;
     height: 18rem;
@@ -300,7 +291,6 @@
 /* Subscribe me */ 
 
 .site-main .subscribe-us-area .subscribe{
-    /* background: url(../img/subscribe-bg.png) no-repeat; */
     padding: 10rem 0;
     margin: 3rem auto;
 }
@@ -340,7 +330,6 @@
 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
 }
 
 footer.footer-area .social h5{

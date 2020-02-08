@@ -8,18 +8,14 @@
             <div class="container" >
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
-                        <!-- <h3 class="title-text">Hey</h3> -->
                         <?php if(get_theme_mod('header_text_field_01')):?>
                         <h3 class="title-text text-capitalize"><?php echo get_theme_mod('header_text_field_01');?></h3>
                         <?php endif;?>
 
-                        <!-- <h1 class="title-text text-uppercase">I am Rubel</h1> -->
                         <?php if(get_theme_mod('header_text_field_02')):?>
                         <h1 class="title-text text-uppercase"><?php echo get_theme_mod('header_text_field_02');?></h1>
                         <?php endif;?>
                       
-
-                        <!-- <h4 class="title-text text-uppercase">Wordpress Developer</h4> -->
                         <?php if(get_theme_mod('header_text_field_03')):?>
                         <h4 class="title-text text-capitalize"><?php echo get_theme_mod('header_text_field_03');?></h4>
                         <?php endif;?>
@@ -33,7 +29,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
-                        <!-- <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid"> -->
+
                         <?php if(get_theme_mod('header_image')):?>
                         <img src="<?php echo esc_url(get_theme_mod('header_image'));?>" alt="banner-img" class="img-fluid">
                         <?php endif;?>
@@ -50,7 +46,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
-                            <!-- <img src="./img/about-us.png" alt="About us" class="img-fluid"> -->
+
                             <?php if(get_theme_mod('about_us_image')):?>
                             <img src="<?php echo esc_url(get_theme_mod('about_us_image'));?>" alt="About us" class="img-fluid">
                             <?php endif;?>
@@ -103,7 +99,7 @@
                         <div class="first-row row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo1.png" alt="Brand-1 "> -->
+
                                     <?php if(get_theme_mod('experience_brand_image_01')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_01'));?>" alt="Brand-1 ">
                                     <?php endif;?>
@@ -111,7 +107,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo2.png" alt="Brand-2 "> -->
+
                                     <?php if(get_theme_mod('experience_brand_image_02')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_02'));?>" alt="Brand-2 ">
                                     <?php endif;?>
@@ -119,7 +115,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo3.png" alt="Brand-3 "> -->
+
                                     <?php if(get_theme_mod('experience_brand_image_03')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_03'));?>" alt="Brand-3 ">
                                     <?php endif;?>
@@ -127,7 +123,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo4.png" alt="Brand-4"> -->
+
                                     <?php if(get_theme_mod('experience_brand_image_04')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_04'));?>" alt="Brand-4 ">
                                     <?php endif;?>
@@ -135,7 +131,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo5.png" alt="Brand-5 "> -->
+
                                     <?php if(get_theme_mod('experience_brand_image_05')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_05'));?>" alt="Brand-5 ">
                                     <?php endif;?>
@@ -143,7 +139,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo6.png" alt="Brand-6"> -->
+         
                                     <?php if(get_theme_mod('experience_brand_image_06')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_06'));?>" alt="Brand-6 ">
                                     <?php endif;?>
@@ -151,7 +147,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo7.png" alt="Brand-7 "> -->
+                 
                                     <?php if(get_theme_mod('experience_brand_image_07')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_07'));?>" alt="Brand-7 ">
                                     <?php endif;?>
@@ -159,7 +155,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo8.png" alt="Brand-8 "> -->
+                       
                                     <?php if(get_theme_mod('experience_brand_image_08')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_08'));?>" alt="Brand-8 ">
                                     <?php endif;?>
@@ -167,7 +163,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="single-brand">
-                                    <!-- <img src="./img/brands/logo9.png" alt="Brand-9"> -->
+                     
                                     <?php if(get_theme_mod('experience_brand_image_09')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('experience_brand_image_09'));?>" alt="Brand-9 ">
                                     <?php endif;?>
@@ -177,7 +173,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="experience-area">
-                            <div class="d-flex flex-row years-area">
+                            <div class="d-flex flex-row years-area" style="background: url('<?php echo esc_url(get_theme_mod('years_background_image'));?>') no-repeat 45px 20px;">
                                 <h2 class="p-3 years">
                                     <?php if(get_theme_mod('experience_text_01')):?>
                                     <?php echo get_theme_mod('experience_text_01');?>
@@ -240,7 +236,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <!-- <img src="./img/services/s1.png" alt="Services-1"> -->
+                     
                                     <?php if(get_theme_mod('services_offers_image_01')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('services_offers_image_01'));?>" alt="Services-1">
                                     <?php endif;?>
@@ -262,7 +258,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <!-- <img src="./img/services/s2.png" alt="Services-2"> -->
+            
                                     <?php if(get_theme_mod('services_offers_image_02')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('services_offers_image_02'));?>" alt="Services-2">
                                     <?php endif;?>
@@ -284,7 +280,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <!-- <img src="./img/services/s3.png" alt="Services-3"> -->
+                           
                                     <?php if(get_theme_mod('services_offers_image_03')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('services_offers_image_03'));?>" alt="Services-3">
                                     <?php endif;?>
@@ -306,7 +302,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <!-- <img src="./img/services/s4.png" alt="Services-4"> -->
+                         
                                     <?php if(get_theme_mod('services_offers_image_04')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('services_offers_image_04'));?>" alt="Services-4">
                                     <?php endif;?>
@@ -362,7 +358,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_01'));?>">
-                                    <!-- <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid"> -->
+                           
                                     <?php if(get_theme_mod('recent_project_showcase_01')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_01'));?>" alt="Services-3">
                                     <?php endif;?>
@@ -378,7 +374,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_02'));?>">
-                                    <!-- <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid"> -->
+                             
                                     <?php if(get_theme_mod('recent_project_showcase_02')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_02'));?>" alt="portfolio-2">
                                     <?php endif;?>
@@ -394,7 +390,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_03'));?>">
-                                    <!-- <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid"> -->
+                                 
                                     <?php if(get_theme_mod('recent_project_showcase_03')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_03'));?>" alt="Services-3">
                                     <?php endif;?>
@@ -410,7 +406,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_04'));?>">
-                                    <!-- <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid"> -->
+                                  
                                     <?php if(get_theme_mod('recent_project_showcase_04')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_04'));?>" alt="portfolio-4">
                                     <?php endif;?>
@@ -426,7 +422,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_05'));?>">
-                                    <!-- <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid"> -->
+                                
                                     <?php if(get_theme_mod('recent_project_showcase_05')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_05'));?>" alt="portfolio-5">
                                     <?php endif;?>
@@ -442,7 +438,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_06'));?>">
-                                    <!-- <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid"> -->
+                               
                                     <?php if(get_theme_mod('recent_project_showcase_06')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_06'));?>" alt="portfolio-6">
                                     <?php endif;?>
@@ -458,7 +454,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_07'));?>">
-                                    <!-- <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid"> -->
+                                
                                     <?php if(get_theme_mod('recent_project_showcase_07')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_07'));?>" alt="portfolio-7">
                                     <?php endif;?>
@@ -474,7 +470,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_08'));?>">
-                                    <!-- <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid"> -->
+                             
                                     <?php if(get_theme_mod('recent_project_showcase_08')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_08'));?>" alt="portfolio-8">
                                     <?php endif;?>
@@ -490,7 +486,7 @@
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="<?php echo esc_url(get_theme_mod('recent_project_showcase_09'));?>">
-                                    <!-- <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid"> -->
+                             
                                     <?php if(get_theme_mod('recent_project_showcase_09')):?>
                                     <img src="<?php echo esc_url(get_theme_mod('recent_project_showcase_09'));?>" alt="portfolio-9">
                                     <?php endif;?>
@@ -529,7 +525,7 @@
                 <div class="owl-carousel owl-theme">
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <!-- <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid"> -->
+                      
                             <?php if(get_theme_mod('testimonials_client_image_01')):?>
                             <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_01'));?>" class="img-fluid" alt="testimonials-1">
                             <?php endif;?>
@@ -549,7 +545,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <!-- <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid"> -->
+                   
                             <?php if(get_theme_mod('testimonials_client_image_02')):?>
                             <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_02'));?>" class="img-fluid" alt="testimonials-2">
                             <?php endif;?>
@@ -569,7 +565,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <!-- <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid"> -->
+                       
                             <?php if(get_theme_mod('testimonials_client_image_01')):?>
                             <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_01'));?>" class="img-fluid" alt="testimonials-1">
                             <?php endif;?>
@@ -589,7 +585,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <!-- <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid"> -->
+                         
                             <?php if(get_theme_mod('testimonials_client_image_02')):?>
                             <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_02'));?>" class="img-fluid" alt="testimonials-2">
                             <?php endif;?>
@@ -609,7 +605,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <!-- <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid"> -->
+                         
                             <?php if(get_theme_mod('testimonials_client_image_01')):?>
                             <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_01'));?>" class="img-fluid" alt="testimonials-1">
                             <?php endif;?>
@@ -629,7 +625,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <!-- <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid"> -->
+                        
                             <?php if(get_theme_mod('testimonials_client_image_02')):?>
                             <img src="<?php echo esc_url(get_theme_mod('testimonials_client_image_02'));?>" class="img-fluid" alt="testimonials-2">
                             <?php endif;?>
